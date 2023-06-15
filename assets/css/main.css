@@ -2043,7 +2043,9 @@ ul.actions li:first-child {
 	padding: 2em;
 	display: flex;
 	flex-direction: column;
-	height: 100%
+	justify-content: flex-start;
+	width: 100%;
+	/* height: 100% */
 }
 
 .box.style1 {
@@ -2065,6 +2067,10 @@ ul.actions li:first-child {
 	top: 2em;
 	margin: -4em 0 4em -4em;
 	width: auto;
+}
+
+.coming-soon {
+	color: rgb(0, 0, 0);
 }
 
 /* Icons */
@@ -2509,7 +2515,7 @@ body>article {
 		position: relative;
 		left: 20px;
 		top: 20px;
-		margin: -50px 0 50px -40px;
+		/* margin: -50px 0 50px -40px; */
 		width: auto;
 	}
 
