@@ -213,6 +213,15 @@ a:hover {
 	color: #43bff0 !important;
 }
 
+a.github-profile-link {
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+a.github-profile-link:hover {
+	color: #43bff0 !important;
+}
+
 a img {
 	border: 0;
 }
@@ -2074,6 +2083,28 @@ ul.actions li:first-child {
 }
 
 /* Icons */
+
+.icon-container {
+	display: flex;
+	align-items: bottom;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 60px;
+}
+
+.misc-icon {
+	position: relative;
+	top: -0.5em;
+	width: 1em;
+	height: 1em;
+}
+
+.fa-brands {
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	vertical-align: center;
+}
 
 .icon {
 	text-decoration: none;
