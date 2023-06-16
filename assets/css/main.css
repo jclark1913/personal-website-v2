@@ -2176,6 +2176,12 @@ ul.actions li:first-child {
 	background-color: #161b22;
 }
 
+.button-container {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
 .wrapper.style2 {
 	background-color: #fafafa
 	;
@@ -2464,6 +2470,11 @@ body>article {
 
 	#top .image {
 		margin: 0 auto 2em auto;
+	}
+
+	.button-container {
+		flex-direction: column;
+		align-items: center;
 	}
 
 }
