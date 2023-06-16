@@ -2092,7 +2092,7 @@ ul.actions li:first-child {
 	display: flex;
 	align-items: bottom;
 	justify-content: center;
-	gap: 10px;
+	gap: 25px;
 	margin-top: 60px;
 }
 
