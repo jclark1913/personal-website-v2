@@ -2184,7 +2184,6 @@ ul.actions li:first-child {
 	text-align: start;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -2288,8 +2287,8 @@ ul.actions li:first-child {
 }
 
 #nav a:hover {
-	color: #fff !important;
-	background: #383838;
+	color: #FFF !important;
+	background: #43B3E0;
 }
 
 #nav a.active {
