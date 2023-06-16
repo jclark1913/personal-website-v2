@@ -418,11 +418,15 @@ footer>p {
 
 /* Row */
 
+.about-title {
+	text-align: justify;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	align-items: stretch;
+	justify-content: center;
 }
 
 .row>* {
@@ -2166,8 +2170,41 @@ ul.actions li:first-child {
 }
 
 .wrapper.style2 {
-	background-color: #161b22;
+	background-color: #fafafa
+	;
 	/* text-shadow: 1px 1px 0px #fff; */
+}
+
+.about-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.timeline {
+	text-align: start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.year-label {
+	font-size: 1rem;
+	font-weight: 750;
+	color: darkslategray;
+}
+
+.job-title {
+	font-weight: bold;
+}
+
+.company {
+	font-weight: lighter;
+	margin-bottom: 15px;
+}
+
+.wrapper.style2 h3 {
+	color: black;
 }
 
 .wrapper.style3 {
@@ -2395,6 +2432,7 @@ body>article {
 }
 
 /* Medium */
+
 
 @media screen and (max-width: 980px) {
 
