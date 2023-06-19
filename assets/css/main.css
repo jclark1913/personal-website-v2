@@ -422,6 +422,14 @@ footer>p {
 	text-align: justify;
 }
 
+.icon-container {
+	display: flex;
+	align-items: bottom;
+	justify-content: center;
+	gap: 25px;
+	margin-top: 60px;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -1162,6 +1170,14 @@ footer>p {
 		align-items: stretch;
 	}
 
+	.icon-container {
+		display: flex;
+		align-items: end;
+		justify-content: center;
+		gap: 10px;
+		margin-top: 60px;
+	}
+
 	.row>* {
 		box-sizing: border-box;
 	}
@@ -1405,6 +1421,14 @@ footer>p {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+	}
+
+	.about-description {
+		font-size: medium;
+	}
+
+	.about-description {
+		font-size: medium;
 	}
 
 	.row>* {
@@ -2087,14 +2111,6 @@ ul.actions li:first-child {
 }
 
 /* Icons */
-
-.icon-container {
-	display: flex;
-	align-items: bottom;
-	justify-content: center;
-	gap: 25px;
-	margin-top: 60px;
-}
 
 .misc-icon {
 	position: relative;
