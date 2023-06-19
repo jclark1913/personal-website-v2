@@ -414,6 +414,12 @@ footer>p {
 		width: 100%;
 	}
 
+	.box.style2 {
+		overflow: hidden;
+	}
+
+
+
 }
 
 /* Row */
@@ -1421,6 +1427,10 @@ footer>p {
 
 @media screen and (max-width: 736px) {
 
+	.project-image {
+		width: 50%;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1793,6 +1803,7 @@ article:last-child {
 .image {
 	display: inline-block;
 	position: relative;
+	overflow: hidden;
 }
 
 .image img {
@@ -1809,6 +1820,15 @@ article:last-child {
 	display: block;
 	width: 100%;
 	margin: 0 0 2em 0;
+	overflow: hidden;
+}
+
+
+
+.image.featured img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .image.left {
