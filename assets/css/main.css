@@ -1786,6 +1786,10 @@ table.default thead {
 
 /* Section/Article */
 
+.top-row {
+	margin-bottom: 1em;
+}
+
 section,
 article {
 	margin-bottom: 3em;
