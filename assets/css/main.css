@@ -367,6 +367,12 @@ footer>p {
 	width: 900px;
 }
 
+.about-description {
+	color: black;
+	font-weight: 600;
+	font-size: larger
+}
+
 @media screen and (max-width: 1680px) {
 
 	.container {
@@ -1170,7 +1176,7 @@ footer>p {
 @media screen and (max-width: 980px) {
 
 
-	.button-container>.button{
+	.button-container>.button {
 		max-width: 250px;
 	}
 
@@ -2228,8 +2234,7 @@ ul.actions li:first-child {
 }
 
 .wrapper.style2 {
-	background-color: #fafafa
-	;
+	background-color: #fafafa;
 	/* text-shadow: 1px 1px 0px #fff; */
 }
 
@@ -2276,8 +2281,8 @@ ul.actions li:first-child {
 .wrapper.style4 {
 	background-color: #30363d;
 	color: #999;
-	font-weight:400
-	/* text-shadow: -1px -1px 0px #181818; */
+	font-weight: 400
+		/* text-shadow: -1px -1px 0px #181818; */
 }
 
 .wrapper.style4 h1,
